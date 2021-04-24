@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: EPL-2.0
 #
 
-FROM jboss/keycloak:6.0.1
+FROM jboss/keycloak:11.0.3
 ADD che /opt/jboss/keycloak/themes/che
 ADD che-username-readonly /opt/jboss/keycloak/themes/che-username-readonly
 ADD . /scripts/
